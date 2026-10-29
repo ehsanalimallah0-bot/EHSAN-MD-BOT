@@ -67,8 +67,8 @@ ______________________________________
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _youtube.com/@wasitech1_
-║❒ *Owner:* _https://wa.me/923192173398_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
+║❒ *Owner:* _https://wa.me/923493368668_
+║❒ *Repo:* _https://ehsanalimallah0-bot/EHSAN-MD-BOT 
 ║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
 ║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
