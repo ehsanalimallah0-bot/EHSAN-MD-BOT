@@ -17,13 +17,13 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ┌───⭓『
-❒ *WASI-MD*
+❒ *EHSAN-MD-BOT*
 ❒ _NOW DEPLOY IT_
 └────────────⭓
 ┌───⭓
 ❒  • Chat with owner •
-❒ *GitHub:* __https://github.com/WASI-MD_
-❒ *Author:* _wa.me/923192173398_
+❒ *GitHub:* __https://github.com/ehsanalimallah0-bot/EHSAN-MD-BOT_
+❒ *Author:* _wa.me/9203493368668_
 ❒ *YT:* _https://youtube.com/@wasitech10_
 └────────────⭓
 `
@@ -41,15 +41,15 @@ const MESSAGE = process.env.MESSAGE ||  `
 if (fs.existsSync('./auth_info_baileys')) {
     fs.emptyDirSync(__dirname + '/auth_info_baileys');
   };
-  
+
   app.use("/", async(req, res) => {
 
   const { default: WasiWASocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-  async function WASI() {
+  async function Ehsan() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
-      let Smd =WasiWASocket({ 
+      let Smd =EhsanWASocket({ 
         printQRInTerminal: false,
         logger: pino({ level: "silent" }), 
         browser: [Browsers.Chrome, 'Windows 10', 'Chrome/89.0.4389.82'],
@@ -99,10 +99,10 @@ SESSION-ID ==> ${Scan_Id}
              // WASI().catch(err => console.log(err));
             } else if (reason === DisconnectReason.connectionLost) {
                 console.log("Connection Lost from Server!")
-            //  WASI().catch(err => console.log(err));
+            //  Ehsan().catch(err => console.log(err));
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...")
-              WASI().catch(err => console.log(err));
+              Ehsan ().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
              // WASI().catch(err => console.log(err));
@@ -134,7 +134,7 @@ SESSION-ID ==> ${Scan_Id}
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
 
-    //// MADE BY ITXWASI
+    //// MADE BY ITXEhsan
 
 });
 
