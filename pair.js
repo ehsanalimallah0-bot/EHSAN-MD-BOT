@@ -57,11 +57,11 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
+*_Pair Code Connected by EHSAN TECH*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN WASI MD 』*
+║ *『 WOW YOU'VE CHOSEN EHSAN MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
@@ -71,7 +71,7 @@ ______________________________________
 ║❒ *Repo:* _https://ehsanalimallah0-bot/EHSAN-MD-BOT 
 ║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
+║❒ *Plugins:* _https://github.com/ehsanalimallah0-bot/EHSAN-MD-BOT-MD-PLUGINS_
 ╚════════════════════════╝
 _____________________________________
 
