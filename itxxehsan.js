@@ -3,16 +3,16 @@ const app = express();
 __path = process.cwd()
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 8000;
-let server = require('./wasiqr.js'),
+let server = require('./ehsanqr.js'),
     code = require('./pair');
 require('events').EventEmitter.defaultMaxListeners = 500;
-app.use('/wasiqr', server);
+app.use('/ehsanqr', server);
 app.use('/code', code);
 app.use('/pair',async (req, res, next) => {
 res.sendFile(__path + '/pair.html')
 })
 app.use('/',async (req, res, next) => {
-res.sendFile(__path + '/wasipage.html')
+res.sendFile(__path + '/ehsanpage.html')
 })
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -25,6 +25,6 @@ Don't Forget To Give Star
 
 module.exports = app
 /**
-    powered by wasi tech team 
+    powered by ehsan tech team 
     join Whatsapp channel for more updates 
     **/
