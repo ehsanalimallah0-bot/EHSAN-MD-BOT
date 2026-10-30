@@ -1,5 +1,5 @@
 // get qr  code of any bot using this ....................
-//coded  by wasi
+//coded  by Ehsan 
 
 
 const express = require("express");
@@ -96,7 +96,7 @@ SESSION-ID ==> ${Scan_Id}
             // console.log("Reason : ",DisconnectReason[reason])
             if (reason === DisconnectReason.connectionClosed) {
               console.log("Connection closed!")
-             // WASI().catch(err => console.log(err));
+             // Ehsan().catch(err => console.log(err));
             } else if (reason === DisconnectReason.connectionLost) {
                 console.log("Connection Lost from Server!")
             //  Ehsan().catch(err => console.log(err));
@@ -105,7 +105,7 @@ SESSION-ID ==> ${Scan_Id}
               Ehsan ().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
-             // WASI().catch(err => console.log(err));
+             // Ehsan().catch(err => console.log(err));
             }  else {
                 console.log('Connection closed with bot. Please run again.');
                 console.log(reason)
@@ -129,7 +129,7 @@ SESSION-ID ==> ${Scan_Id}
 
 
 
-  WASI().catch(async(err) => {
+  Ehsan().catch(async(err) => {
     console.log(err)
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
